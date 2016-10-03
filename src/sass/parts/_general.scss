@@ -1,0 +1,25 @@
+* {
+	font-family: Arial,'san-serif';
+}
+#wrapper
+{
+	width: 700px;
+	position: relative;
+	margin: 0 auto;
+}
+table
+{
+	width: 100%;
+	margin: 10px 0;
+}
+thead tr
+{
+	background-color: #2d366f;
+}
+th
+{
+	font-weight: normal;
+	color: #a6ce3a;
+	text-transform: uppercase;
+	padding: 5px 0;
+}
