@@ -358,6 +358,12 @@ th {
   outline: none; }
 
 /* General */
+/* Colors */
+/* Helpers */
+.center {
+  text-align: center; }
+
+/* General */
 * {
   font-family: Arial,'san-serif'; }
 
@@ -374,9 +380,55 @@ thead tr {
   background-color: #2d366f; }
 
 th {
-  font-weight: normal;
+  font-weight: bold;
   color: #a6ce3a;
   text-transform: uppercase;
   padding: 5px 0; }
 
 /* Parts */
+#header {
+  padding-top: 60px; }
+  #header .title {
+    color: #2d366f;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block; }
+  #header .logo {
+    background-image: url("../img/logo.png");
+    width: 281px;
+    height: 75px;
+    float: right;
+    font-size: 0; }
+  #header .text {
+    color: #6e6f73;
+    clear: both;
+    padding-top: 20px; }
+    #header .text .green {
+      background-color: #a6ce3a;
+      color: #ffffff;
+      font-weight: bold;
+      display: inline-block;
+      padding: 3px 6px;
+      font-size: 1.3em; }
+
+#dados table td {
+  color: #6e6f73; }
+
+#produtos table td, #produtos table th {
+  border: 1px solid #000; }
+
+#produtos table tr:first-child td {
+  text-align: center;
+  /* width: 14.2857% */ }
+
+#produtos table td {
+  color: #2d366f;
+  padding: 2px 5px; }
+
+#resumo table td {
+  color: #6e6f73;
+  padding: 20px 5px;
+  font-size: 0.7em; }
+
+#resumo table td, #resumo table th {
+  border: 1px solid #2d366f; }

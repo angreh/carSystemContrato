@@ -1,3 +1,16 @@
+/* Colors */
+$color-blue: #2d366f;
+$color-green: #a6ce3a;
+$color-gray: #6e6f73;
+$color-white: #ffffff;
+
+/* Helpers */
+.center
+{
+	text-align: center;
+}
+
+/* General */
 * {
 	font-family: Arial,'san-serif';
 }
@@ -14,12 +27,12 @@ table
 }
 thead tr
 {
-	background-color: #2d366f;
+	background-color: $color-blue;
 }
 th
 {
-	font-weight: normal;
-	color: #a6ce3a;
+	font-weight: bold;
+	color: $color-green;
 	text-transform: uppercase;
 	padding: 5px 0;
 }

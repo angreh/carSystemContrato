@@ -1,0 +1,22 @@
+#produtos
+{
+	table
+	{
+		td, th
+		{
+			border: 1px solid #000;
+		}
+
+		tr:first-child td
+		{
+			text-align: center;
+			/* width: 14.2857% */
+		}
+
+		td
+		{
+			color: $color-blue;
+			padding: 2px 5px;
+		}
+	}
+}
